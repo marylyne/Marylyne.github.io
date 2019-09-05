@@ -1,0 +1,152 @@
+body {
+	background: gray;
+}
+
+.skl, .edn, .wrk {
+	line-height: 2
+}
+
+header {
+	height: 100%;
+	background-color: rgb(35, 8, 69);
+	padding: 5px 10px;
+	border-color: rgb(181, 27, 143);
+	border-style: outset;
+	border-radius: 7px 14px;
+	color: white;
+
+}
+
+.pic {
+	margin-right: 5px;
+	float: right;
+	border-radius: 20%;
+	height: 100px;
+}
+
+.hd1 {
+	color: rgb(161, 21, 126);
+	font-family: courier;
+	text-shadow: white 1px 3px;
+
+}
+
+.hd2 {
+	font-family: "Arial Black";
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(166, 20, 141);
+}
+
+em {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+table {
+	width:100%;
+	border: 2px solid grey;
+	height: 50px;
+}
+
+td:hover, .tdrr:hover {
+	background-color: rgb(224, 193, 217);
+	border: 2.5px solid rgb(0,0,0,0);
+}
+
+tr:firstchild {
+	background-color: rgb(0,0,0);
+}
+
+
+td, .edu {
+	padding: 15px;
+	font-family: "Comic Sans MS";
+	vertical-align: bottom;
+}
+
+.tdr {
+	background-color: rgb(250, 240, 248);
+}
+
+.tdrr {
+	background-color: rgb(233, 239, 242, 0.5);
+}
+
+.dropbtn, #cbutton {
+  float: center;
+  padding: 16px;
+  font-size: 16px;
+  background-color: #590e5e;
+  color: white;
+  border-radius: 6px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+.dropbtn:hover, .dropbtn:focus, #cbutton:hover, #cbutton:focus {
+  background-color: #7b2d7d;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #830f87;
+  min-width: 250px;
+  z-index: 1;
+  padding: 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content input,textarea {
+width: 100%;
+margin: 8px 0;
+display: inline-block;
+box-sizing: border-box;
+float: center;
+padding: 16px;
+font-size: 16px;
+color: black;
+border-radius: 6px;
+padding: 14px 20px;
+
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+.show {
+  display:block;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(0,0,0);
+  margin-top: 20px;
+  color: white;
+
+}
+
